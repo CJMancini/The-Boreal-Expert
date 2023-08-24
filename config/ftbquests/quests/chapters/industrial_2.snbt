@@ -1,0 +1,21 @@
+{
+	id: "7DA71DF1514B7531"
+	group: ""
+	order_index: 5
+	filename: "industrial_2"
+	title: "Industrial"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: -1.0d
+		id: "386730C3E8ECB753"
+		tasks: [{
+			id: "5E3C30ACB3D4709D"
+			type: "item"
+			item: "powah:energizing_orb"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,62 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 21, 2023, 12:08:49 PM
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold
+- minecraft:ocean_ruin_warm
+
+#minecraft:mineshaft
+- minecraft:mineshaft
+- minecraft:mineshaft_mesa
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion
+
+#dungeons_plus:on_snowy_temple_maps
+- dungeons_plus:snowy_temple
+
+#quark:soul_bead_target
+- minecraft:fortress
+
+#dungeons_plus:on_leviathan_maps
+- dungeons_plus:leviathan
+
+#minecraft:shipwreck
+- minecraft:shipwreck
+- minecraft:shipwreck_beached
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument
+
+#dungeons_plus:on_warped_garden_maps
+- dungeons_plus:warped_garden
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert
+- minecraft:ruined_portal_jungle
+- minecraft:ruined_portal_mountain
+- minecraft:ruined_portal_nether
+- minecraft:ruined_portal_ocean
+- minecraft:ruined_portal
+- minecraft:ruined_portal_swamp
+
+#minecraft:village
+- minecraft:village_plains
+- minecraft:village_desert
+- minecraft:village_savanna
+- minecraft:village_snowy
+- minecraft:village_taiga
+
+#dungeons_plus:on_reanimated_ruins_maps
+- dungeons_plus:reanimated_ruins_mossy
+- dungeons_plus:reanimated_ruins_mesa
+- dungeons_plus:reanimated_ruins_frozen
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin
+- #minecraft:shipwreck

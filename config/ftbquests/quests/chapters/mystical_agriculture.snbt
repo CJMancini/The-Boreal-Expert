@@ -1,0 +1,192 @@
+{
+	id: "6EE655ADA5193E22"
+	group: ""
+	order_index: 6
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:supremium_essence"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -12.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "6AAC9A7109F5C27F"
+			tasks: [{
+				id: "426EF8D123CE5605"
+				type: "item"
+				item: "mysticalagriculture:dye_seeds"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "108C662BD7C3DCDB"
+			tasks: [{
+				id: "5136ACF849522083"
+				type: "item"
+				item: "mysticalagriculture:nature_seeds"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "59934BF0E0670A05"
+			tasks: [{
+				id: "38509A83775B42AB"
+				type: "item"
+				item: "mysticalagriculture:earth_seeds"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "57E8984467CCDDD8"
+			tasks: [{
+				id: "4DF13AA0E630EB76"
+				type: "item"
+				item: "mysticalagriculture:water_seeds"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "3F40C6DBD6FEDEC7"
+			tasks: [{
+				id: "6415BB3DC4760A10"
+				type: "item"
+				item: "mysticalagriculture:air_seeds"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "0643CCD3B9C347CB"
+			tasks: [{
+				id: "2F357D8BF2DE11A2"
+				type: "item"
+				item: "mysticalagriculture:nether_seeds"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "363FED91DBCF5212"
+			tasks: [{
+				id: "6F4C16D6A047DD4A"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:dirt_seeds"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "489AAF733BEEA149"
+			tasks: [{
+				id: "730A604C2FBAE099"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "7E31834FC7E68413"
+			tasks: [{
+				id: "31F2A1C3608705BF"
+				type: "item"
+				item: {
+					id: "matc:prudentium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -1.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "5F508CBB231EED01"
+			tasks: [{
+				id: "5FF1D0C08A338C3D"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -0.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "1B68917D4E838352"
+			tasks: [{
+				id: "6769017B6905C5CD"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "5C561BC3CCB610DA"
+			tasks: [{
+				id: "2ECB492755C6935F"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

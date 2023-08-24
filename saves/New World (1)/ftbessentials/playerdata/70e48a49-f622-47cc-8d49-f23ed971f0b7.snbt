@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "Bulachudo"
+	last_seen: { dim: "minecraft:overworld", x: -735, y: 84, z: 293, time: 1692895359956L, xRot: 35.85045f, yRot: 134.42444f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

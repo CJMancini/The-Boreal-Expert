@@ -1,0 +1,269 @@
+{
+	id: "77C962DAD140A316"
+	group: ""
+	order_index: 3
+	filename: "mekanism"
+	title: "3 - Beginning of Technology..."
+	icon: "mekanism:advanced_control_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "3F2B9B4CEE6739FD"
+			tasks: [{
+				id: "31D929BA1ABC97CC"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: [""]
+			dependencies: ["3F2B9B4CEE6739FD"]
+			hide: true
+			id: "054B88BF3F18E961"
+			tasks: [{
+				id: "2D93DF74F6C5F109"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["054B88BF3F18E961"]
+			id: "175E063049DCA259"
+			tasks: [{
+				id: "2C205D11EB33FEA0"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["175E063049DCA259"]
+			id: "5CA934BE0A960DCA"
+			tasks: [{
+				id: "7BA16A44D5DE7B43"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			title: "&cInfused alloy"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["054B88BF3F18E961"]
+			id: "091DBB68BE1F6B01"
+			tasks: [{
+				id: "78564E9E0EB4CB71"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			title: "&bReiforced Alloy"
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["091DBB68BE1F6B01"]
+			id: "059FD9ECB34F4F0C"
+			tasks: [{
+				id: "170F50271CAC26AB"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			title: "&5Atomic Alloy"
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["059FD9ECB34F4F0C"]
+			id: "30241B16F6FC8732"
+			tasks: [{
+				id: "6596D65898AC3EAD"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["7492375B8DEE8002"]
+			id: "2E12AD55E5005887"
+			tasks: [
+				{
+					id: "0D80B071B3A99A6F"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+				}
+				{
+					id: "3017D171AAEBFD92"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["5CA934BE0A960DCA"]
+			id: "72D24E309F74CF50"
+			tasks: [{
+				id: "46C6D37FCBF47B2A"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["72D24E309F74CF50"]
+			id: "7492375B8DEE8002"
+			tasks: [{
+				id: "098A57F7B9C7C7A9"
+				type: "item"
+				item: "the_boreal:psilomelano_ingot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["7492375B8DEE8002"]
+			id: "365B071FBD1B73CA"
+			tasks: [{
+				id: "3F4FC37B4B8245E3"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["365B071FBD1B73CA"]
+			id: "5BF73430223E7DAE"
+			tasks: [{
+				id: "28147AA4B94AED66"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["175E063049DCA259"]
+			id: "52EF6E51FE5D2464"
+			tasks: [
+				{
+					id: "26DD93BB6B75E69A"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "4C46FA01AB1A5C63"
+					type: "item"
+					item: "mekanism:ultimate_mechanical_pipe"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["175E063049DCA259"]
+			id: "537B7E89BB0DD673"
+			tasks: [
+				{
+					id: "53223F6B213E0809"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "4E05C52F894C74B5"
+					type: "item"
+					item: "mekanism:ultimate_universal_cable"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			dependencies: ["210D063EA892BEAA"]
+			id: "494BF6ECD5E9AD22"
+			tasks: [{
+				id: "28EB72786B143AF6"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.3d
+			dependencies: ["7492375B8DEE8002"]
+			size: 1.4d
+			id: "210D063EA892BEAA"
+			tasks: [{
+				id: "7C76882D2749A4C3"
+				type: "item"
+				item: "the_boreal:hausmannite_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["5CA934BE0A960DCA"]
+			id: "76DB433F0D84CDBE"
+			tasks: [{
+				id: "2A03A2AD4D81F7A9"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["76DB433F0D84CDBE"]
+			id: "4C7682EB35B6B899"
+			tasks: [{
+				id: "4565B7934DF38B67"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["175E063049DCA259"]
+			id: "6C3C013304227E3F"
+			tasks: [
+				{
+					id: "037C40D57115E4A4"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+				{
+					id: "347CFBDE3FFDCD9A"
+					type: "item"
+					item: "mekanism:ultimate_logistical_transporter"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["76DB433F0D84CDBE"]
+			id: "570D62DDB1705314"
+			tasks: [{
+				id: "00E88FF567D7EAEE"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

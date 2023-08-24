@@ -1,0 +1,26 @@
+{
+	version: 1
+	uuid: "70e48a49f62247cc8d49f23ed971f0b7"
+	name: "Bulachudo"
+	can_edit: true
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: {
+		415408F2EDA7E44D: 1
+	}
+	started: {
+		23E6345ADF5F4327: 1692890416229L
+		11AF5CEFE15B342D: 1692890416229L
+		0000000000000001: 1692890416229L
+		415408F2EDA7E44D: 1692890416229L
+	}
+	completed: {
+		23E6345ADF5F4327: 1692890416231L
+		11AF5CEFE15B342D: 1692890416231L
+		415408F2EDA7E44D: 1692890416231L
+	}
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

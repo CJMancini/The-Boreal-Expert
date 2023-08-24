@@ -1,0 +1,28 @@
+{
+	id: "23E6345ADF5F4327"
+	group: ""
+	order_index: 0
+	filename: "informativo"
+	title: "0 - Informative"
+	icon: "ftbquests:book"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Welcome"
+		disable_toast: true
+		x: -2.5d
+		y: -3.0d
+		description: [
+			"English: Welcome to The Boreal Expert, Have a good game, I just ask you to read the informational texts of the quests, to find out about possible \"lags\".     "
+			""
+			"Português: Bem-vindo ao The Boreal Expert, Bom jogo, peço apenas que leia os textos informativos das missões, para se informar sobre possíveis \"lags\"."
+		]
+		id: "11AF5CEFE15B342D"
+		tasks: [{
+			id: "415408F2EDA7E44D"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

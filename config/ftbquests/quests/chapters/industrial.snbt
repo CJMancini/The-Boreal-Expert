@@ -1,0 +1,377 @@
+{
+	id: "3EC755FB1F25C3EA"
+	group: ""
+	order_index: 4
+	filename: "industrial"
+	title: "4 - Beginning of storage"
+	icon: "ae2:drive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "22E517C20E7AEF1A"
+			tasks: [{
+				id: "4B974B8F7AE1EE8B"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "0DB1CB9EA0C18EBE"
+			tasks: [{
+				id: "0E9A0D13B1A264F4"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "05384C698679DEEA"
+			tasks: [{
+				id: "050935AAF0675E78"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "08F00F44ADAF91F0"
+			tasks: [{
+				id: "7F4ADD860F3FA38B"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "1281D14BB26E0855"
+			tasks: [{
+				id: "497F90B228454525"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "7903C926DC10C739"
+			tasks: [{
+				id: "29122577F821AA0F"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "3E1C9B01CEBCA34D"
+			tasks: [{
+				id: "57320E95D54C35CF"
+				type: "item"
+				item: {
+					id: "thermal:machine_pyrolyzer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["11AF5CEFE15B342D"]
+			hide: true
+			id: "09D6D365DC0FC3C0"
+			tasks: [{
+				id: "5BEB0F1629FF327D"
+				type: "item"
+				item: {
+					id: "the_boreal:machineframe_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2F4ED26BBA50DE9E"
+				type: "item"
+				item: "the_boreal:dark_steel_ingot"
+				count: 6
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["3E1C9B01CEBCA34D"]
+			id: "265113D6B65D4887"
+			tasks: [{
+				id: "4316C65BA8D47521"
+				type: "item"
+				item: "thermal:coal_coke"
+				count: 16L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: [
+				"09D6D365DC0FC3C0"
+				"65DE8ADCEE8D1A6D"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "72DBDFC38D06F5B5"
+			tasks: [{
+				id: "67998B5EDDE4CDB2"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["3935876E3803E54E"]
+			id: "19636E1F26CC214D"
+			tasks: [{
+				id: "34395BFA2EA56098"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["382BCFAFD7812876"]
+			id: "3935876E3803E54E"
+			tasks: [{
+				id: "12B0EB0139B03A85"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: [
+				"52DBC204AC16F28F"
+				"09D6D365DC0FC3C0"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "382BCFAFD7812876"
+			tasks: [{
+				id: "0AEC78BD36A04754"
+				type: "item"
+				item: "ae2:charger"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			id: "070F3651ECC569A0"
+			tasks: [{
+				id: "35030FCB44151716"
+				type: "item"
+				item: {
+					id: "ae2:quartz_growth_accelerator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["72DBDFC38D06F5B5"]
+			id: "3E499F1E8CC1E7C1"
+			tasks: [{
+				id: "3B8C2C442785606A"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["3E499F1E8CC1E7C1"]
+			id: "52DBC204AC16F28F"
+			tasks: [{
+				id: "4286311D9B06D411"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["52DBC204AC16F28F"]
+			id: "2D50AA055926F132"
+			tasks: [{
+				id: "31B6DD6BBAA38065"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["070F3651ECC569A0"]
+			id: "2980241B4ADB03A5"
+			tasks: [{
+				id: "730845B3230F2C1F"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["2980241B4ADB03A5"]
+			id: "30BF16EA8FAFF7A4"
+			tasks: [{
+				id: "7D9A96CA41C60A94"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: [
+				"2D50AA055926F132"
+				"30BF16EA8FAFF7A4"
+			]
+			id: "4A401614E68ECEB8"
+			tasks: [{
+				id: "47AFC6BFF9A4B783"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["52DBC204AC16F28F"]
+			id: "4B4F6A5D093DE137"
+			tasks: [{
+				id: "7FE5D0C75B288E0D"
+				type: "item"
+				item: "ae2:formation_core"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["4B4F6A5D093DE137"]
+			id: "0A554803931F08B0"
+			tasks: [{
+				id: "248E749AC3D2AF8A"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: [
+				"English"
+				"Turning on the Storage Bus in the Drawers you have Infinite HD."
+				""
+				"Português"
+				"Ligando o \"Storage Bus\" nos \"Drawers\" você tem HD Infinito"
+			]
+			dependencies: ["19636E1F26CC214D"]
+			id: "5A7621A30C8E3257"
+			tasks: [{
+				id: "4122F24CF64FB543"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["09D6D365DC0FC3C0"]
+			hide: true
+			optional: true
+			id: "7B4028F8CAC3F69F"
+			tasks: [{
+				id: "7A2279603A44C053"
+				type: "item"
+				item: {
+					id: "ae2:sky_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Press"
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["7B4028F8CAC3F69F"]
+			id: "65DE8ADCEE8D1A6D"
+			tasks: [
+				{
+					id: "44207CB5BEDE5BC6"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "71977CB68CAEACCC"
+					type: "item"
+					item: {
+						id: "ae2:logic_processor_press"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "29E13A3ED59C0278"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+				{
+					id: "2682B87B8DE85768"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["35D12F5D6818170D"]
+			id: "48A01C18CBF4CA8B"
+			tasks: [{
+				id: "7D428F022BACD449"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

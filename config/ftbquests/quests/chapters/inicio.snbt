@@ -1,0 +1,509 @@
+{
+	id: "6ABE68867D0AB692"
+	group: ""
+	order_index: 1
+	filename: "inicio"
+	title: "1 - The beginning..."
+	icon: {
+		id: "tconstruct:crafting_station"
+		Count: 1b
+		tag: {
+			texture: "minecraft:oak_log"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["2A131392E7F640C6"]
+			id: "3EC8AA27AE49440D"
+			tasks: [{
+				id: "084D9D7527F9473D"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "713CA984D6E57D86"
+				type: "item"
+				team_reward: true
+				item: "minecraft:oak_log"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["4466624F76A0CF83"]
+			id: "753EC7FD896503F1"
+			tasks: [{
+				id: "5CDA797A9F37064E"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [{
+				id: "60BEC46B72726A9A"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			subtitle: "Objective"
+			description: ["Collect a Lava Bucket."]
+			dependencies: ["491887354F93D49D"]
+			id: "4466624F76A0CF83"
+			tasks: [{
+				id: "327635AB5871BF87"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "59151E0F6CC9A6E8"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["0E9FA82B2092EFC2"]
+			optional: true
+			id: "725825782CA0B76B"
+			tasks: [
+				{
+					id: "03AC66280D2C74B6"
+					type: "item"
+					item: "tconstruct:cast_chest"
+				}
+				{
+					id: "3A997C7EBD530290"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			title: "It all starts the same..."
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["23E6345ADF5F4327"]
+			hide: true
+			id: "791535FB401D99BB"
+			tasks: [{
+				id: "4408BF1DAA11A6CE"
+				type: "item"
+				title: "Colete uma Madeira"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A4FA677BEEAE86A"
+				type: "item"
+				item: "quark:cooked_crab_leg"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["3E57E1A876AA8F0D"]
+			id: "50EE84F8DEBA9015"
+			tasks: [{
+				id: "5C6615ECFB99A52E"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			title: "Iron"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "Esquente o ferro na CampFire"
+			dependencies: ["3EC8AA27AE49440D"]
+			id: "35D12F5D6818170D"
+			tasks: [
+				{
+					id: "31AF8567621EEAE2"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 3L
+				}
+				{
+					id: "32C7ED2AED02D999"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "29FF74A01DF2AB48"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["50EE84F8DEBA9015"]
+			id: "0E9FA82B2092EFC2"
+			tasks: [{
+				id: "70AA7189DBA8A6F2"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			dependencies: ["35D12F5D6818170D"]
+			id: "3F27456BBD341307"
+			tasks: [{
+				id: "4C59C8C824313AA8"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.5d
+			dependencies: ["0E9FA82B2092EFC2"]
+			id: "00C28247B4A5770B"
+			tasks: [{
+				id: "2221E608DA1D906E"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.5d
+			dependencies: ["0E9FA82B2092EFC2"]
+			id: "5CA8DA8E61614FFE"
+			tasks: [{
+				id: "405F2CD73A3FD84C"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["0E9FA82B2092EFC2"]
+			dependency_requirement: "one_completed"
+			id: "09517E8644410FA3"
+			tasks: [{
+				id: "3F8244F206AC7499"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			dependencies: ["0E9FA82B2092EFC2"]
+			size: 2.0d
+			id: "1B5B29BE09FBAB61"
+			tasks: [
+				{
+					id: "1A5AA53C27A85C2A"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "08651C674EF56E59"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			dependencies: ["0E9FA82B2092EFC2"]
+			id: "491887354F93D49D"
+			tasks: [{
+				id: "17A4C9A1E9202408"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+			rewards: [{
+				id: "2A2F5D4592C7E040"
+				type: "item"
+				item: "ae2:sky_stone_tank"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["3EC8AA27AE49440D"]
+			id: "5B489AC1D7AAFCC0"
+			tasks: [{
+				id: "2475692BEEEF8991"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			title: "Storage Upgrade"
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["5B489AC1D7AAFCC0"]
+			id: "60FE544C0BB31EC1"
+			tasks: [
+				{
+					id: "228827599FC3AD7E"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+				{
+					id: "734562611C849717"
+					type: "item"
+					item: "storagedrawers:iron_storage_upgrade"
+				}
+				{
+					id: "7DFACC45232CC292"
+					type: "item"
+					item: "storagedrawers:gold_storage_upgrade"
+				}
+				{
+					id: "503EC87D44E03FD1"
+					type: "item"
+					item: "storagedrawers:diamond_storage_upgrade"
+				}
+				{
+					id: "6105DAFF862BC086"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "78DE83B10D0FA716"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+			]
+			rewards: [{
+				id: "36D91E598588D0DB"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+				count: 4
+			}]
+		}
+		{
+			title: "&dHammer"
+			x: 5.5d
+			y: 6.5d
+			dependencies: ["35D12F5D6818170D"]
+			dependency_requirement: "all_started"
+			id: "3E57E1A876AA8F0D"
+			tasks: [{
+				id: "5C054EBE44B5C20E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			dependencies: ["0E9FA82B2092EFC2"]
+			id: "70B49328394AE720"
+			tasks: [{
+				id: "71C1573452A3085E"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["35D12F5D6818170D"]
+			id: "376938A17B9412DB"
+			tasks: [{
+				id: "4C403CEFEECC200C"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:sink"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Storage Upgrade"
+			x: 2.5d
+			y: 8.0d
+			dependencies: ["3F27456BBD341307"]
+			id: "356902DA1AC85433"
+			tasks: [
+				{
+					id: "4C48882C3ABF5DFA"
+					type: "item"
+					item: "ironchest:copper_chest"
+				}
+				{
+					id: "1999E04B0B0DCC0F"
+					type: "item"
+					item: "ironchest:iron_chest"
+				}
+				{
+					id: "44DF31009F2D2FF3"
+					type: "item"
+					item: "ironchest:gold_chest"
+				}
+				{
+					id: "1C52A999C845BE9F"
+					type: "item"
+					item: "ironchest:diamond_chest"
+				}
+				{
+					id: "590A70FA70E1F653"
+					type: "item"
+					item: "ironchest:obsidian_chest"
+				}
+			]
+			rewards: [{
+				id: "665FE8B98DADB00B"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+				count: 2
+			}]
+		}
+		{
+			title: "Furnace Upgrade"
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["50EE84F8DEBA9015"]
+			id: "528D9763EEBE4269"
+			tasks: [
+				{
+					id: "454CED594CD22E1C"
+					type: "item"
+					item: "ironfurnaces:copper_furnace"
+				}
+				{
+					id: "17FC33DD65584005"
+					type: "item"
+					item: "ironfurnaces:iron_furnace"
+				}
+				{
+					id: "174CC5BCF1C73537"
+					type: "item"
+					item: "ironfurnaces:gold_furnace"
+				}
+				{
+					id: "251DE2DEF6D4A964"
+					type: "item"
+					item: "ironfurnaces:diamond_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "5390426BA5EC1ED3"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 6
+				}
+				{
+					id: "22728A221963B4B2"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: false
+			dependencies: ["791535FB401D99BB"]
+			hide: true
+			id: "7F8A19DC33A167ED"
+			tasks: [{
+				id: "072AE65EB71D441A"
+				type: "item"
+				item: "the_boreal:head_wood_pickaxe"
+			}]
+			rewards: [{
+				id: "5E0C5ED1B1E2A342"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["7F8A19DC33A167ED"]
+			id: "61EE2A74F4845362"
+			tasks: [{
+				id: "2A5DD05F7BC63460"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32L
+				consume_items: true
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["61EE2A74F4845362"]
+			id: "2A131392E7F640C6"
+			tasks: [{
+				id: "2A97B0923D1BA781"
+				type: "item"
+				item: "the_boreal:head_stone_pickaxe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			dependencies: ["356902DA1AC85433"]
+			id: "601D771E795E7965"
+			tasks: [{
+				id: "1D6F870AD1D30C3E"
+				type: "item"
+				item: "simplybackpacks:rarebackpack"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			dependencies: ["601D771E795E7965"]
+			id: "16062F8705AE730F"
+			tasks: [{
+				id: "6B5422C5AD6DCD60"
+				type: "item"
+				item: "simplybackpacks:epicbackpack"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			dependencies: ["16062F8705AE730F"]
+			id: "1FB4017818C5C51F"
+			tasks: [{
+				id: "34D8FCBEB1FEC3C9"
+				type: "item"
+				item: "simplybackpacks:ultimatebackpack"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
