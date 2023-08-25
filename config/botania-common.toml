@@ -16,9 +16,9 @@ invertMagnetRing = false
 #Applying changes at runtime requires /reload afterwards.
 orechidPriorityMods = []
 #Set this to false to disable mystical flower worldgen. More fine-tuned customization should be done with datapacks.
-worldgenFlowers = true
+worldgenFlowers = false
 #Set this to false to disable mushroom worldgen. More fine-tuned customization should be done with datapacks.
-worldgenMushrooms = true
+worldgenMushrooms = false
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
