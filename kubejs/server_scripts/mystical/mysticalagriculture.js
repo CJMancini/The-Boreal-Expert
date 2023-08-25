@@ -29,51 +29,51 @@ onEvent('recipes', event => {
 
 
 
-//teste
+// teste
 
 
-   event.custom({
-        "type": "mysticalagriculture:infusion",
-        "input": {
-          "item": "minecraft:apple"
-        },
-        "ingredients": [
-          {
-            "item": "minecraft:carrot"
-          },
-          {
-            "item": "minecraft:carrot"
-          },
-          {
-            "item": "minecraft:carrot"
-          },
-          {
-            "item": "minecraft:carrot"
-          },
-          {
-            "item": "minecraft:carrot"
-          }
-        ],
-        "result": {
-          "item": "minecraft:potato"
-        }
+//    event.custom({
+//         "type": "mysticalagriculture:infusion",
+//         "input": {
+//           "item": "minecraft:apple"
+//         },
+//         "ingredients": [
+//           {
+//             "item": "minecraft:carrot"
+//           },
+//           {
+//             "item": "minecraft:carrot"
+//           },
+//           {
+//             "item": "minecraft:carrot"
+//           },
+//           {
+//             "item": "minecraft:carrot"
+//           },
+//           {
+//             "item": "minecraft:carrot"
+//           }
+//         ],
+//         "result": {
+//           "item": "minecraft:potato"
+//         }
 
-  });
+//   });
 
-  event.custom({
-      "type": "powah:energizing",
-      "ingredients": [
-      {"item": "minecraft:blaze_powder"},
-      {"item": "minecraft:blaze_powder"},
-      {"item": "minecraft:blaze_powder"},
-      {"item": "minecraft:blaze_powder"}
-      ],
-      "energy": 120000,
-      "result": {
-      "item": "minecraft:stone"
-      }
+  // event.custom({
+  //     "type": "powah:energizing",
+  //     "ingredients": [
+  //     {"item": "minecraft:blaze_powder"},
+  //     {"item": "minecraft:blaze_powder"},
+  //     {"item": "minecraft:blaze_powder"},
+  //     {"item": "minecraft:blaze_powder"}
+  //     ],
+  //     "energy": 120000,
+  //     "result": {
+  //     "item": "minecraft:stone"
+  //     }
     
-  })
+  // })
 
 
 })    
