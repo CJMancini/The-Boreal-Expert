@@ -4,14 +4,15 @@
   "_schemaVersion": 6,
   "_lastMCVersionId": 758,
   "generalSettings": {
-    "detectATLauncherInstance": true,
+    "detectATLauncherInstance": false,
     "detectCurseManifest": true,
-    "detectMultiMCManifest": true,
-    "detectMCUpdaterInstance": true,
-    "detectTechnicPack": true,
-    "detectBiomeData": true,
-    "detectDimensionData": true,
-    "detectWorldData": true,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": false,
+    "detectBiomeData": false,
+    "detectDimensionData": false,
+    "detectWorldData": false,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
@@ -29,10 +30,10 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "unknown",
+    "fallbackDimensionIcon": "logo2",
     "dimensionData": {
       "default": {
-        "textOverride": "In the {dimension.name}"
+        "textOverride": "Playing The Boreal Expert"
       }
     }
   },
@@ -48,23 +49,66 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "In the Main Menu"
+      "textOverride": "Playing The Boreal Expert",
+      "iconOverride": "logo2",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "button_1": {
+            "label": "Discord",
+            "url": "https://discord.gg/wNm76Fe5a8"
+          },
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     },
     "loadingData": {
-      "textOverride": "Loading..."
+      "textOverride": "Loading...",
+      "iconOverride": "logo2"
     },
     "lanData": {
-      "textOverride": "Playing on a LAN Server"
+      "textOverride": "Playing The Boreal Expert"
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer"
+      "textOverride": "Playing The Boreal Expert",
+      "iconOverride": "logo2",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
     }
   },
   "advancedSettings": {
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "formatWords": true,
+    "formatWords": false,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
@@ -72,6 +116,27 @@
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
       "guiData": {
+        "ConnectScreen": {
+          "textOverride": "In {screen.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
+        },
         "default": {
           "textOverride": "In {screen.name}"
         }
@@ -95,7 +160,7 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "playerSkinEndpoint": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fraposa_3674599&psig=AOvVaw2OYq85ZrJmhHQQamIXySLl&ust=1693088710065000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIC0yo7t-IADFQAAAAAdAAAAABAb",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10
   },
@@ -156,14 +221,22 @@
       "enabled": true,
       "useAsMain": false,
       "details": "{getFirst(menu.message, dimension.message)}",
-      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
-      "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "gameState": "Playing The Boreal Expert",
+      "largeImageKey": "logo2",
+      "largeImageText": "CJ Né Vida",
+      "smallImageKey": "",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
+        "button_2": {
+          "label": "Curse Forge",
+          "url": "https://rebrand.ly/TheBorealExpert"
+        },
+        "button_1": {
+          "label": "Discord",
+          "url": "https://discord.gg/wNm76Fe5a8"
+        },
         "default": {
           "label": "Example Text",
           "url": "https://google.com"
@@ -172,6 +245,8 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
+      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3",
+      "empire-network.net": "https://api.mcsrvstat.us/icon/empire-network.net",
       "Bulachudo": "https://mc-heads.net/avatar/70e48a49f62247cc8d49f23ed971f0b7"
     },
     "dynamicVariables": {
