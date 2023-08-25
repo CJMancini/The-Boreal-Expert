@@ -1,4 +1,0 @@
-[19:05:00] [INFO ] Hello, World! (You will see this line every time client resources reload)
-[19:05:00] [INFO ] Loaded script client_scripts:script.js in 0.094 s
-[19:05:00] [INFO ] Loaded script client_scripts:tooltips.js in 0.016 s
-[19:05:00] [INFO ] Loaded 2/2 KubeJS client scripts in 0.136 s
