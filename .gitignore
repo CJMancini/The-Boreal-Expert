@@ -1,6 +1,6 @@
 /crash-reports
 /saves
-logs
+/logs
 /patchouli_books
 /options.txt
 /optionsof.txt
@@ -22,3 +22,4 @@ logs
 /usercache.json
 /usernamecache.json
 /o_prof
+/patchouli_data.json
