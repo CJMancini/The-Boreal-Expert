@@ -3,7 +3,7 @@ onEvent('recipes', event => {
    // event.remove({mod: 'mysticalagradditions'})
    // event.remove({mod: 'mysticalagriculture'})
    // event.remove({type: 'mysticalagriculture:infusion'})
-   event.recipes.immersiveengineeringBlastFurnaceFuel('mysticalagradditions:insanium_coal').time(115200)
+   event.recipes.immersiveengineeringBlastFurnaceFuel('mysticalagradditions:insanium_coal').time(115200) //ddd
 
    event.remove({output: 'mysticalagriculture:infusion_altar'})
    event.shaped('1x mysticalagriculture:infusion_altar', [
