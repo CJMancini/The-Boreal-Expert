@@ -153,7 +153,7 @@
 
 	[worldgeneration.meneglin]
 		#The chance at which a Menril Tree will spawn in the wild, the higher this value, the lower the chance.
-		wildMenrilTreeChance = 100
+		wildMenrilTreeChance = 0
 
 [item]
 
