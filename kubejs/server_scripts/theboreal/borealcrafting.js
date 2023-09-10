@@ -27,7 +27,7 @@ onEvent('recipes', event => {
         'ASA'
       ], {
         B: Item.of('immersiveengineering:hammer').ignoreNBT(),
-        S: 'minecraft:obsidian',
+        S: 'minecraft:crying_obsidian',
         A: 'tconstruct:blood_slime_ball'
       })
      

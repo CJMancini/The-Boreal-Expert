@@ -24,13 +24,20 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
-			rewards: [{
-				id: "713CA984D6E57D86"
-				type: "item"
-				team_reward: true
-				item: "minecraft:oak_log"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "713CA984D6E57D86"
+					type: "item"
+					team_reward: true
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "712EE1DABD957D8A"
+					type: "item"
+					item: "minecraft:chest"
+				}
+			]
 		}
 		{
 			x: 8.5d

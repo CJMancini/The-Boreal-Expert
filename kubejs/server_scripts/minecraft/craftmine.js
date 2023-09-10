@@ -118,14 +118,22 @@ event.shaped('1x minecraft:smithing_table', [
   
 })
 
-event.remove({output: 'minecraft:bucket'})
-event.shaped('minecraft:bucket', [
-  '   ',
-  'A A',
-  ' A '
+event.remove({output: 'minecraft:obsidian'})
+event.shaped('1x minecraft:crying_obsidian', [
+  'AAA',
+  'AAA',
+  'AAA'
 ], {
-  A: 'mekanism:ingot_steel'
+  A: 'inventorypets:nugget_obsidian'
   
 })
+
+
+
+
+
+
+
+
 })
 

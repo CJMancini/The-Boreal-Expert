@@ -361,17 +361,6 @@
 				}
 			]
 		}
-		{
-			x: -7.0d
-			y: 1.5d
-			dependencies: ["35D12F5D6818170D"]
-			id: "48A01C18CBF4CA8B"
-			tasks: [{
-				id: "7D428F022BACD449"
-				type: "item"
-				item: "immersiveengineering:plate_iron"
-			}]
-		}
 	]
 	quest_links: [ ]
 }
