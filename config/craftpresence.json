@@ -13,7 +13,7 @@
     "detectBiomeData": false,
     "detectDimensionData": false,
     "detectWorldData": false,
-    "clientId": "944587192607576156",
+    "clientId": "1143329656943153263",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
@@ -49,7 +49,7 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "Playing The Boreal Expert",
+      "textOverride": "",
       "iconOverride": "logo2",
       "data": {
         "enabled": true,

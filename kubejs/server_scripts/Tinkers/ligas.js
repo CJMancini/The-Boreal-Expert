@@ -10,3 +10,4 @@ event.remove({id: 'taiga:smeltery/alloys/nucleum1'})
 event.remove({id: 'taiga:smeltery/alloys/nucleum2'})
     
 })
+

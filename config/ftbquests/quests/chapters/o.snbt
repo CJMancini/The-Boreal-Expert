@@ -1,0 +1,33 @@
+{
+	id: "17BE11B5A3B99BA0"
+	group: ""
+	order_index: 7
+	filename: "o"
+	title: "o"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: -0.5d
+		width: 50.0d
+		height: 50.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/isles.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: -30.0d
+		y: -8.5d
+		description: ["{image:#FFFFFF width:100 height:100 align:1}"]
+		id: "78C319885200CB50"
+		tasks: [{
+			id: "1E5008520ECA201F"
+			type: "item"
+			item: "minecraft:cobblestone"
+		}]
+	}]
+	quest_links: [ ]
+}
