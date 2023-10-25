@@ -1,5 +1,6 @@
 onEvent('recipes', event => {
     event.remove({id: 'immersiveengineering:mineral/auricupride'})
+    event.remove({id: 'immersiveengineering:mineral/ancient_debris'})
     event.remove({id: 'immersiveengineering:mineral/beryl'})
     event.remove({id: 'immersiveengineering:mineral/bituminous_coal'})
     event.remove({id: 'immersiveengineering:mineral/cassiterite'})

@@ -1,0 +1,11 @@
+{
+	id: "606B6D7D35157993"
+	group: ""
+	order_index: 7
+	filename: "aa"
+	title: "aa"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

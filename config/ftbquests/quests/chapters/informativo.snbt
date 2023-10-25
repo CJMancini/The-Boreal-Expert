@@ -10,13 +10,16 @@
 	default_hide_dependency_lines: false
 	quests: [{
 		title: "Welcome"
+		icon: "ftbquests:book"
 		disable_toast: true
-		x: -2.5d
-		y: -3.0d
+		x: -2.0d
+		y: -2.5d
+		shape: "gear"
 		description: [
 			"English: Welcome to The Boreal Expert, Have a good game, I just ask you to read the informational texts of the quests, to find out about possible \"lags\".     "
 			""
 			"Português: Bem-vindo ao The Boreal Expert, Bom jogo, peço apenas que leia os textos informativos das missões, para se informar sobre possíveis \"lags\"."
+			"{image:kubejs:textures/item/the_boreal.png width:100 height:100 align:1}"
 		]
 		id: "11AF5CEFE15B342D"
 		tasks: [{

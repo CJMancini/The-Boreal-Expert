@@ -1,7 +1,7 @@
 {
 	version: 13
 	title: "The Boreal Expert"
-	icon: "minecraft:grass_block"
+	icon: "kubejs:the_boreal"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

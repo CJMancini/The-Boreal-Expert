@@ -6,4 +6,10 @@ onEvent('worldgen.remove', event => {
                 'minecraft:spawner'
             ];
     })
+
+    event.removeSpawnsByID(spawns => {
+        spawns.entities.values = [
+          'kiwiboi:kiwi'
+        ]
+      })
 })

@@ -49,7 +49,7 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "",
+      "textOverride": "In the Main Menu",
       "iconOverride": "logo2",
       "data": {
         "enabled": true,
