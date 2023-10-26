@@ -1,6 +1,7 @@
 onEvent('recipes', event => {
 
     event.campfireCooking('3x minecraft:iron_nugget', 'minecraft:raw_iron')
+    event.campfireCooking('minecraft:cobblestone', 'minecraft:stone')
 
 })
 

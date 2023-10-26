@@ -1,5 +1,14 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "totemic:totempedia": {
+      "viewedEntries": [
+        "totemic:ceremonies/buffalo_dance",
+        "totemic:basics/totem_poles"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
