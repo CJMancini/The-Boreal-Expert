@@ -3,7 +3,7 @@
 console.info('Hello, World! (You will see this line every time client resources reload)')
 
 onEvent('jei.add.items', event => {
-    event.add(Item.of('minecraft:player_head', '{RepairCost:0,SkullOwner:"Bulachudo",display:{Name:\'{"text":"Creditos: Recipes by Bulachudo"}\'}}'))
+    event.add(Item.of('minecraft:player_head', '{RepairCost:0,SkullOwner:"Bulachudo",display:{Name:\'{"text":"Credits: Modpack create by Bulachudo"}\'}}'))
   })
 
   onEvent('jei.hide.items', event => {

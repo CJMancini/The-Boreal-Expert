@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "oi"
-	title: "2・The age of steel..."
+	title: "・The age of steel..."
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -18,10 +18,7 @@
 			title: "Soft Obsidian"
 			x: -9.5d
 			y: -3.5d
-			dependencies: [
-				"1B5B29BE09FBAB61"
-				"23E6345ADF5F4327"
-			]
+			dependencies: ["23E6345ADF5F4327"]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "294DDD6BC7B1B6E1"
@@ -100,8 +97,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -1.5d
+			x: -9.0d
+			y: -1.0d
 			dependencies: ["31A34BC35628A159"]
 			id: "15F808694B07E823"
 			tasks: [{
@@ -111,7 +108,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: 1.0d
 			dependencies: ["42C56D16A8023034"]
 			id: "387C9656F6EE6662"
@@ -127,10 +124,12 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -8.0d
 			y: 0.0d
-			dependencies: ["4600DED8BF8897E8"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"4600DED8BF8897E8"
+				"15F808694B07E823"
+			]
 			id: "42C56D16A8023034"
 			tasks: [{
 				id: "5178CB6A3820685D"
@@ -139,8 +138,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.0d
+			x: -7.0d
+			y: 0.0d
 			dependencies: ["42C56D16A8023034"]
 			id: "143519C73038A1F8"
 			tasks: [{
@@ -225,23 +224,6 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -0.5d
-			dependencies: ["15F808694B07E823"]
-			id: "351F7DB3804D63EE"
-			tasks: [{
-				id: "7365D79E04956C24"
-				type: "item"
-				item: {
-					id: "minecraft:flint_and_steel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
 			x: -1.5d
@@ -267,11 +249,19 @@
 			y: -1.5d
 			dependencies: ["276ECE5C69C2433C"]
 			id: "4600DED8BF8897E8"
-			tasks: [{
-				id: "4137CEC8B01F66CF"
-				type: "item"
-				item: "immersiveengineering:wirecoil_copper"
-			}]
+			tasks: [
+				{
+					id: "4137CEC8B01F66CF"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "01AC8B2D937281C8"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 4L
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -457,7 +447,7 @@
 		}
 		{
 			x: -8.0d
-			y: -1.0d
+			y: -1.5d
 			dependencies: ["4600DED8BF8897E8"]
 			id: "1CF23F8EF7CFD215"
 			tasks: [
@@ -503,7 +493,7 @@
 			]
 		}
 		{
-			x: -10.5d
+			x: -10.0d
 			y: -1.5d
 			dependencies: ["15F808694B07E823"]
 			id: "4B975F565B997856"
@@ -511,6 +501,31 @@
 				id: "2AFD993F63E5B061"
 				type: "item"
 				item: "morphtool:tool"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["73115CCD88062FE6"]
+			id: "69C5978EEFDA24A4"
+			tasks: [{
+				id: "247F8482532FCBC2"
+				type: "item"
+				item: "cyclic:crusher"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: [
+				"15F808694B07E823"
+				"42C56D16A8023034"
+			]
+			id: "73115CCD88062FE6"
+			tasks: [{
+				id: "60B1428998DC083C"
+				type: "item"
+				item: "cyclic:solidifier"
 			}]
 		}
 	]

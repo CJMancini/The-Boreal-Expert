@@ -9,6 +9,13 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "cyclic:cyclic_guide_book": {
+      "viewedEntries": [
+        "cyclic:items/boomerang"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "industrial"
-	title: "5・Beginning of storage"
+	title: "・Beginning of storage"
 	icon: "ae2:drive"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

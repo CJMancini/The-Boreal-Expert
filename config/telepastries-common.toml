@@ -2,7 +2,7 @@
 #General settings
 [General]
 	#Defines if the pastries should be immune to explosions [default: false]
-	explosionImmune = false
+	explosionImmune = true
 	#Defines if the pastry usage requires hunger, when set to true it ignores hunger [default: false]
 	ignoreHunger = false
 	#Disable placement of non-overworld cakes in dimensions that aren't the overworld (Meaning you can't go from the nether straight to the end) [default: true]
