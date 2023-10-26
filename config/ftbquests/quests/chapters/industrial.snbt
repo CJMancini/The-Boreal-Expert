@@ -1,9 +1,9 @@
 {
 	id: "3EC755FB1F25C3EA"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "industrial"
-	title: "4 - Beginning of storage"
+	title: "5・Beginning of storage"
 	icon: "ae2:drive"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

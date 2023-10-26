@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "oi"
-	title: "2 - The age of steel..."
+	title: "2・The age of steel..."
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b

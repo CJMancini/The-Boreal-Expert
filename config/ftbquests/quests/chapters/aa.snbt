@@ -1,11 +1,55 @@
 {
 	id: "606B6D7D35157993"
 	group: ""
-	order_index: 7
+	order_index: 4
 	filename: "aa"
-	title: "aa"
+	title: "4・Exploring the Dimensions"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "1A952DA53DCAFEF4"
+			tasks: [{
+				id: "171E4786365A140B"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			dependencies: ["1A952DA53DCAFEF4"]
+			id: "6262E6CCD5D6B817"
+			tasks: [{
+				id: "51627044F31B4608"
+				type: "item"
+				item: "telepastries:nether_cake"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			dependencies: ["1A952DA53DCAFEF4"]
+			id: "154E81848B0AC02B"
+			tasks: [{
+				id: "347B022E2711C84F"
+				type: "item"
+				item: "telepastries:end_cake"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["1A952DA53DCAFEF4"]
+			id: "450E3242FD9A0E6B"
+			tasks: [{
+				id: "573E120BC0FEF9A8"
+				type: "item"
+				item: "telepastries:twilight_cake"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

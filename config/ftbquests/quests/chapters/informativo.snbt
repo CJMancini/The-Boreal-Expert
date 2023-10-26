@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "informativo"
-	title: "0 - Informative"
+	title: "0・Informative"
 	icon: "ftbquests:book"
 	disable_toast: true
 	default_quest_shape: ""
@@ -15,6 +15,7 @@
 		x: -2.0d
 		y: -2.5d
 		shape: "gear"
+		subtitle: "Introduction"
 		description: [
 			"English: Welcome to The Boreal Expert, Have a good game, I just ask you to read the informational texts of the quests, to find out about possible \"lags\".     "
 			""

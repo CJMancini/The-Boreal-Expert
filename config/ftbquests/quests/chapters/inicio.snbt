@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "inicio"
-	title: "1 - The beginning..."
+	title: "1・The beginning..."
 	icon: {
 		id: "tconstruct:crafting_station"
 		Count: 1b

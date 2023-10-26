@@ -89,7 +89,7 @@ event.shaped('1x minecraft:furnace', [
   A: '#forge:cobblestone',
   B: 'minecraft:coal_block',
   C: '#forge:rods/iron',
-  D: '#forge:plates/iron'
+  D: 'immersiveengineering:plate_iron'
   
 })
 
