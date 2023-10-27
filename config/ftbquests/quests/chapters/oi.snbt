@@ -528,6 +528,30 @@
 				item: "cyclic:solidifier"
 			}]
 		}
+		{
+			icon: "minecraft:obsidian"
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["73115CCD88062FE6"]
+			id: "7CC9A213AC0B16F0"
+			tasks: [
+				{
+					id: "5ED2FA310EEA6524"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "752DCE126B60F280"
+					type: "item"
+					item: "inventorypets:nugget_obsidian"
+				}
+				{
+					id: "1BC43890A3BAC3E8"
+					type: "item"
+					item: "crystalcraft_unlimited_java:obsidian_shard"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

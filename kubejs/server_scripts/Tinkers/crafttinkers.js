@@ -25,16 +25,16 @@ onEvent('recipes', event => {
        A: 'tconstruct:seared_bricks'
      }) 	 
  
-      //Seared Ingot Tank 
+    //Seared Ingot Tank 
  
     //event.remove({output: 'tconstruct:seared_ingot_tank'})
-    event.shaped('1x tconstruct:seared_ingot_tank', [
-       'AAA',
-       'ASA',
-       'AAA'
-       ], {
-       A: 'tconstruct:seared_bricks',
-       S: '#forge:glass'
-       })  
+    // event.shaped('1x tconstruct:seared_ingot_tank', [
+    //    'AAA',
+    //    'ASA',
+    //    'AAA'
+    //    ], {
+    //    A: 'tconstruct:seared_bricks',
+    //    S: '#forge:glass'
+    //    })  
     
 })
