@@ -64,6 +64,17 @@ event.shaped(Item.of('minecraft:diamond_pickaxe', '{Damage:-100000,RepairCost:0}
     S: '#minecraft:logs'
   })
 
+   //Stick
+  
+  event.remove({output: 'minecraft:stick'})
+  event.shaped('minecraft:stick', [
+    ' S ',
+    ' S ',
+    '   '
+  ], {
+    S: '#minecraft:logs'
+  })
+
   //Flint And Steel
 
   event.remove({output: 'minecraft:flint_and_steel'})

@@ -552,6 +552,23 @@
 				}
 			]
 		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["634A437E87E33058"]
+			id: "4960976CC011A97C"
+			tasks: [{
+				id: "07EEABD423B1A13E"
+				type: "item"
+				item: {
+					id: "cyclic:boomerang_carry"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
