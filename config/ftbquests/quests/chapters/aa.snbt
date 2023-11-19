@@ -47,12 +47,85 @@
 		{
 			x: -7.5d
 			y: -2.5d
+			description: [""]
+			guide_page: "/say oi"
 			dependencies: ["1A952DA53DCAFEF4"]
 			id: "450E3242FD9A0E6B"
 			tasks: [{
 				id: "573E120BC0FEF9A8"
 				type: "item"
 				item: "telepastries:twilight_cake"
+			}]
+			rewards: [{
+				id: "2D279BC7DD409B01"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			icon: "twilightforest:quest_ram_trophy"
+			x: -10.5d
+			y: -2.5d
+			id: "0486A0D246947933"
+			tasks: [
+				{
+					id: "5569605E0DD8C87E"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+				{
+					id: "556960CBD296D094"
+					type: "item"
+					item: {
+						id: "twilightforest:crumble_horn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: -11.5d
+			y: -2.5d
+			id: "1ED94D880B7B83EA"
+			tasks: [
+				{
+					id: "08304FD187CC73F2"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+				{
+					id: "423744E9334109A9"
+					type: "item"
+					item: {
+						id: "twilightforest:glass_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			can_repeat: true
+			id: "5FAFEFD375F7AE52"
+			tasks: [{
+				id: "47372E9C3581A206"
+				type: "checkmark"
+				title: "Wiki"
+			}]
+			rewards: [{
+				id: "5B5B132E353CBA27"
+				type: "command"
+				title: "Wiki "
+				icon: "telepastries:twilight_cake"
+				command: "/tellraw @a {\"text\":\"Click Me!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://benimatic.com/tfwiki/index.php?title=Main_Page\"}}"
 			}]
 		}
 	]
