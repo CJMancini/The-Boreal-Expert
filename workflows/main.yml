@@ -1,0 +1,37 @@
+name: The Boreal Expert
+
+on:
+  push:
+    branches:
+      - main  # ou a branch que você deseja monitorar
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Java
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+
+    - name: Build mod
+      run: ./gradlew build  # ou o comando que você usa para construir o seu projeto
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Upload to CurseForge
+      uses: CurseForge/upload-to-curseforge@master
+      with:
+        cfAPIKey: ${{ secrets.CURSEFORGE_API_KEY }}
+        projectID: 'seu-id-do-projeto-no-curseforge'
+        manifestFile: build/libs/SEU-ARQUIVO-MOD.jar
+        displayName: 'Nome do Seu Mod'
+        releaseType: 'alpha'  # ou 'beta' ou 'release'
