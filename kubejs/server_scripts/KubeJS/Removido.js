@@ -3,10 +3,15 @@ onEvent('recipes', event => {
     //AQUI SERÁ REMOVIDO RECIPES DE ITENS/MODS/TAGS
 
     const RCM = [ //Mods
-    'projecte',
-    'projectexpansion',
-    'mysticalagriculture',
-    'draconicevolution'
+    'projecte', //REMOVER
+    'projectexpansion', //REMOVER
+    'extendedexchange', //REMOVER
+    'mysticalagriculture', //REMOVER
+    'crystalcraft_unlimited_java', //REMOVER
+    '@angelring', //REMOVER
+    'draconicevolution', //REMOVER
+    'elementalcraft', //REMOVER
+    'crystalcraft_unlimited_java'
     ];
     const RCI = [ //Itens
         'quark:deepslate_furnace',
@@ -19,8 +24,11 @@ onEvent('recipes', event => {
     const RCID = [ //ID
         'cyclic:crafting/chest'
     ];
-    const RCITP = [ //ID
+    const RCITP = [ //TYPE
         'cyclic:solidifier'
+    ];
+    const RCIP = [ //INPUT
+
     ];
       
     RCM.forEach(RCMR => { //MODS
@@ -35,8 +43,11 @@ onEvent('recipes', event => {
     RCID.forEach(RCIDR => { //ID
     event.remove({id: `${RCIDR}` })
     });
-    RCITP.forEach(RCITPr => { //ID
+    RCITP.forEach(RCITPr => { //TYPE
     event.remove({type: `${RCITPr}` })
+    });
+    RCIP.forEach(RCIPR => { //INPUT
+    event.remove({input: `${RCIPR}` })
     });
   
 

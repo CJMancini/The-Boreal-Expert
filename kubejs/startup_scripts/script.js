@@ -12,8 +12,11 @@ onEvent('block.loot_tables', event => {
 		})
 	})
 })
-  
+
+
+
 onEvent('item.registry', event => {
 	// Register new items here
 	event.create('the_boreal').displayName('The Boreal')
 })
+

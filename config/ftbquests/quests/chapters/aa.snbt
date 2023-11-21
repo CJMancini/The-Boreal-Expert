@@ -112,21 +112,20 @@
 		}
 		{
 			x: -7.5d
-			y: -1.5d
-			can_repeat: true
-			id: "5FAFEFD375F7AE52"
-			tasks: [{
-				id: "47372E9C3581A206"
-				type: "checkmark"
-				title: "Wiki"
-			}]
-			rewards: [{
-				id: "5B5B132E353CBA27"
-				type: "command"
-				title: "Wiki "
-				icon: "telepastries:twilight_cake"
-				command: "/tellraw @a {\"text\":\"Click Me!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://benimatic.com/tfwiki/index.php?title=Main_Page\"}}"
-			}]
+			y: -7.5d
+			id: "362398F0A1A523DC"
+			tasks: [
+				{
+					id: "1894AFB59DBB3AC5"
+					type: "item"
+					item: "tconstruct:ichor_slime_crystal_block"
+				}
+				{
+					id: "17560376B67D8CB9"
+					type: "item"
+					item: "tconstruct:ichor_slime_crystal"
+				}
+			]
 		}
 	]
 	quest_links: [ ]
