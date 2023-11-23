@@ -66,6 +66,7 @@
 			icon: "twilightforest:quest_ram_trophy"
 			x: -10.5d
 			y: -2.5d
+			dependencies: ["450E3242FD9A0E6B"]
 			id: "0486A0D246947933"
 			tasks: [
 				{
@@ -90,6 +91,7 @@
 			icon: "twilightforest:snow_queen_trophy"
 			x: -11.5d
 			y: -2.5d
+			dependencies: ["450E3242FD9A0E6B"]
 			id: "1ED94D880B7B83EA"
 			tasks: [
 				{
@@ -113,6 +115,7 @@
 		{
 			x: -7.5d
 			y: -7.5d
+			dependencies: ["6262E6CCD5D6B817"]
 			id: "362398F0A1A523DC"
 			tasks: [
 				{

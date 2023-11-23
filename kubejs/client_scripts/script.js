@@ -8,6 +8,8 @@ onEvent('jei.hide.items', event => {
     '@draconicevolution',  //REMOVER
     '@draconicadditions',  //REMOVER
     '@angelring', //REMOVER
+    '@alchemistry', //REMOVER
+    '@astral_dimension', //REMOVER
     '@elementalcraft', //REMOVER
 
 	  'twilightforest:uncrafting_table',

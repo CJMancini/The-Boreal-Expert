@@ -70,6 +70,8 @@
 			rewards: [{
 				id: "626D21AA8AD17D09"
 				type: "command"
+				title: "Just click on the chat text."
+				icon: "ae2:charged_certus_quartz_crystal"
 				command: "/tellraw @a {\"text\":\"To access the Applied Energistics 2 Wiki, simply CLICK HERE!!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.18/getting-started\"}}"
 			}]
 		}

@@ -8,17 +8,26 @@ onEvent('recipes', event => {
 
 // event.recipes.immersiveengineeringMetalPress('immersiveengineering:stick_iron', '#forge:ingots/iron', 'immersiveengineering:mold_rod')
 
-event.remove({tag: '#forge:dusts/fluorite'})
+//event.remove({tag: '#forge:dusts/fluorite'})
 event.custom({
 "type":"immersiveengineering:crusher",
 "secondaries":[],
 "result":{"item":"mekanism:dust_fluorite","count":1},
-"input":{"tag":"#forge:ingots/gold"},
+"input":{"item":"mekanism:fluorite_gem"},
 "energy":1600
-})
-// event.remove({tag: '#forge:dusts/gold'})
+}).id('kubejs:dust_fluorite');
 
+//event.remove({tag: '#forge:dusts/gold'})
 event.custom({
-"type":"immersiveengineering:crusher","secondaries":[],"result":{"item":"immersiveengineering:dust_gold","count":6},"input":{"item":"minecraft:gold_ingot"},"energy":1600
-})
+"type":"immersiveengineering:crusher",
+"secondaries":[],
+"result":{"item":"mekanism:dust_gold","count":1},
+"input":{"item":"minecraft:gold_ingot"},
+"energy":1600
+}).id('kubejs:dust_gold');
+
+
+
+
+
 })
