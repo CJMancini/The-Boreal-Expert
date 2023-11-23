@@ -7,25 +7,22 @@ onEvent('recipes', event => {
     'projectexpansion', //REMOVER
     'extendedexchange', //REMOVER
     'mysticalagriculture', //REMOVER
-    'crystalcraft_unlimited_java', //REMOVER
     '@angelring', //REMOVER
     'draconicevolution', //REMOVER
     'elementalcraft', //REMOVER
-    'crystalcraft_unlimited_java'
     ];
     const RCI = [ //Itens
-        'quark:deepslate_furnace',
-        'quark:blackstone_furnace'
+    // 'immersiveengineering:graphite_electrode'
     ];
     const RCT = [ //Tags
         // 'minecraft:stone',
         // 'netherite'
     ];
     const RCID = [ //ID
-        'cyclic:crafting/chest'
+    'cyclic:crafting/chest'
     ];
     const RCITP = [ //TYPE
-        'cyclic:solidifier'
+    'cyclic:solidifier'
     ];
     const RCIP = [ //INPUT
 

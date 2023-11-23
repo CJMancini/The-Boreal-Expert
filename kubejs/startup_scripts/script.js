@@ -1,4 +1,5 @@
 priority: 0
+// Platform.mods.kubejs.name = 'The Boreal Expert'
 onEvent('block.loot_tables', event => {
 
 	event.addBlock([
@@ -15,8 +16,9 @@ onEvent('block.loot_tables', event => {
 
 
 
-onEvent('item.registry', event => {
+onEvent('item.registry', e => {
 	// Register new items here
-	event.create('the_boreal').displayName('The Boreal')
+	e.create('the_boreal').displayName('The Boreal')
+	e.create('obsidian_shard').displayName('Obsidian Shard')
 })
 

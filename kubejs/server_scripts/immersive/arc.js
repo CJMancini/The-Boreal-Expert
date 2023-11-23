@@ -23,6 +23,29 @@ onEvent('recipes', event => {
     "energy":204800
     })
 
+    
+    event.custom({
+    "type":"immersiveengineering:arc_furnace",
+    "results":
+        [
+            {"item":"the_boreal:dark_steel_ingot"}
+        ],
+    "additives":
+        [
+            {"tag":"forge:ingots/steel"}
+        ],
+    "input":
+        {
+            "item":"immersiveengineering:ingot_hop_graphite"
+        },
+    // "slag":
+    //     {
+    //         "tag":"forge:slag"
+    //     },
+    "time":400,
+    "energy":204800
+    })
+
     //Dark Steel Ingot
 // event.recipes.immersiveengineeringArcFurnace(['the_boreal:dark_steel_ingot'], 'immersiveengineering:ingot_hop_graphite', '#forge:ingots/steel',)
     

@@ -432,6 +432,8 @@
 						graphDmg: 0
 					}
 				}
+				count: 3L
+				match_nbt: false
 			}]
 		}
 		{
@@ -505,7 +507,7 @@
 		}
 		{
 			x: -10.0d
-			y: 0.0d
+			y: -0.5d
 			dependencies: ["73115CCD88062FE6"]
 			id: "69C5978EEFDA24A4"
 			tasks: [{
@@ -530,8 +532,8 @@
 		}
 		{
 			icon: "minecraft:obsidian"
-			x: -9.0d
-			y: 1.0d
+			x: -10.0d
+			y: 0.5d
 			dependencies: ["73115CCD88062FE6"]
 			id: "7CC9A213AC0B16F0"
 			tasks: [

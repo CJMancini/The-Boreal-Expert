@@ -1,4 +1,6 @@
 onEvent('recipes', event => {
+
+
     event.remove({output: 'cyclic:boomerang_carry'})
     event.custom({
     "type": "cyclic:solidifier",
@@ -34,7 +36,7 @@ onEvent('recipes', event => {
       //     }
       //   ]
   })
-  event.remove({output: 'crystalcraft_unlimited_java:obsidian_shard'})
+
   event.custom({
   "type": "cyclic:solidifier",
       "ingredients": [ 
@@ -54,7 +56,7 @@ onEvent('recipes', event => {
     "count": 1000
   },
   "result": {
-    "item": "crystalcraft_unlimited_java:obsidian_shard",
+    "item": "kubejs:obsidian_shard",
       "count": 1
   },
     "energy": {
@@ -64,18 +66,18 @@ onEvent('recipes', event => {
 
 })
 
-event.remove({output: 'crystalcraft_unlimited_java:obsidian_shard'})
+event.remove({output: 'minecraft:obsidian'})
 event.custom({
 "type": "cyclic:solidifier",
     "ingredients": [  
 {
-  "item": "crystalcraft_unlimited_java:obsidian_shard"
+  "item": "kubejs:obsidian_shard"
 },
 {
-  "item": "crystalcraft_unlimited_java:obsidian_shard"
+  "item": "kubejs:obsidian_shard"
 },
 {
-  "item": "crystalcraft_unlimited_java:obsidian_shard"
+  "item": "kubejs:obsidian_shard"
 }
 ],
 "mix": {
@@ -91,5 +93,34 @@ event.custom({
       "ticks": 5
   },
 })
+
+event.remove({output: 'immersiveengineering:graphite_electrode' })
+event.custom({
+"type": "cyclic:solidifier",
+    "ingredients": [  
+{
+  "item": "immersiveengineering:dust_hop_graphite"
+},
+{
+  "item": "immersiveengineering:dust_hop_graphite"
+},
+{
+  "item": "immersiveengineering:dust_hop_graphite"
+}
+],
+"mix": {
+  "fluid": "tconstruct:molten_steel",
+  "count": 1000
+},
+"result": {
+  "item": "immersiveengineering:graphite_electrode",
+    "count": 1
+},
+  "energy": {
+      "rfpertick": 10000,
+      "ticks": 5
+  },
+})
+
 
 })
