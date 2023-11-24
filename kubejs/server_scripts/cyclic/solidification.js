@@ -1,13 +1,10 @@
 onEvent('recipes', event => {
 
-
+    //BOOMERANG CARRY
     event.remove({output: 'cyclic:boomerang_carry'})
     event.custom({
     "type": "cyclic:solidifier",
         "ingredients": [ 
-    // {
-    //         "tag": "forge:string"
-    // },   
     {
       "item": "totemic:baykok_bow"
     }
@@ -24,19 +21,30 @@ onEvent('recipes', event => {
           "rfpertick": 60000,
           "ticks": 1 
       },
-      // "conditions": [
-      //     {
-      //         "values": [
-      //             {
-      //                 "modid": "liquidblocks",
-      //                 "type": "forge:mod_loaded"
-      //             }
-      //         ],
-      //         "type": "forge:and"
-      //     }
-      //   ]
-  })
-
+  }).id('the_boreal:boomerang_carry');
+    //BOOMERANG STUN
+    event.remove({output: 'cyclic:boomerang_stun'}) 
+    event.custom({
+    "type": "cyclic:solidifier",
+        "ingredients": [    
+    {
+      "item": "twilightforest:triple_bow"
+    }
+  ],
+    "mix": {
+      "fluid": "kubejs:red_gold_fluid",
+      "count": 2000
+    },
+    "result": {
+      "item": "cyclic:boomerang_stun", 
+        "count": 1
+    },
+      "energy": {
+          "rfpertick": 60000,
+          "ticks": 1 
+      },
+  }).id('the_boreal:boomerang_stun');
+  //OBSIDIAN SHARD
   event.custom({
   "type": "cyclic:solidifier",
       "ingredients": [ 
@@ -64,8 +72,8 @@ onEvent('recipes', event => {
         "ticks": 5
     },
 
-})
-
+}).id('the_boreal:obsidian_shard');
+//OBSIDIAN
 event.remove({output: 'minecraft:obsidian'})
 event.custom({
 "type": "cyclic:solidifier",
@@ -92,8 +100,8 @@ event.custom({
       "rfpertick": 10000,
       "ticks": 5
   },
-})
-
+}).id('the_boreal:obsidian');
+//GRAPHITE ELECTRODE
 event.remove({output: 'immersiveengineering:graphite_electrode' })
 event.custom({
 "type": "cyclic:solidifier",
@@ -120,7 +128,7 @@ event.custom({
       "rfpertick": 10000,
       "ticks": 5
   },
-})
+}).id('the_boreal:graphite_electrode');
 
 
 })

@@ -21,7 +21,7 @@ onEvent('recipes', event => {
     //     },
     "time":400,
     "energy":204800
-    }).id('kubejs:dark_steel_ingot');
+    }).id('the_boreal:dark_steel_ingot');
 
     
     event.custom({
@@ -35,16 +35,17 @@ onEvent('recipes', event => {
             {"item":"minecraft:redstone"}
         ],
     "input":
-        {
-            "item":"minecraft:gold_ingot"
-        },
-    // "slag":
-    //     {
-    //         "tag":"forge:slag"
-    //     },
+        [
+            {"item":"minecraft:gold_ingot"}
+        ],
     "time":400,
     "energy":204800
-    }).id('kubejs:red_gold');
+    })
+
+    // event.custom({
+    // "type":"immersiveengineering:arc_furnace","results":[{"tag":"forge:red_gold"}],"additives":[{"tag":"forge:dusts/redstone"}],"input":{"tag":"forge:ingots/gold"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800
+    // })
+
 
     //Dark Steel Ingot
 // event.recipes.immersiveengineeringArcFurnace(['the_boreal:dark_steel_ingot'], 'immersiveengineering:ingot_hop_graphite', '#forge:ingots/steel',)

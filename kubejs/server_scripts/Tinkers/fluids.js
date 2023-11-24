@@ -23,7 +23,7 @@ event.custom({
     //     "amount": 5000
     //   }
     // ]
-  }).id('kubejs:molten_obsidian');
+  }).id('the_boreal:molten_obsidian');
 
 
 
@@ -38,7 +38,7 @@ event.custom({
     },
     "temperature": 800,
     "time": 100,
-  }).id('kubejs:red_gold_fluid');
+  }).id('the_boreal:red_gold_fluid');
 
 
 })

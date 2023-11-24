@@ -2,7 +2,28 @@ onEvent("lootjs", (event) => {
   event
       .addLootTypeModifier(LootType.CHEST)
       .removeLoot(Ingredient.all)
+
+
+
 });
+
+onEvent('entity.loot_tables', event => {
+  // Add a loot table for the zombie that will drop 5 of either carrot (25% chance) or apple (75% chance)
+  // Because the zombie already has a loot table, this will override the current one
+  event.modifyEntity('twilightforest:snow_queen', table => {
+    table.addPool(pool => {
+      pool.addItem('twilightforest:triple_bow')
+    })
+  })
+})
+
+
+//   event.addEntity('minecraft:pig', table => {
+//     table.addPool(pool => {
+//       // Modify pig loot table to *also* drop dirt on top of its regular drops
+//       pool.addItem('minecraft:dirt')
+//     })
+//   })
 
 // LootJS.modifiers((event) => {
 //   event

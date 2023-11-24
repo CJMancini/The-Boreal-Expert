@@ -15,7 +15,7 @@ event.custom({
 "result":{"item":"mekanism:dust_fluorite","count":1},
 "input":{"item":"mekanism:fluorite_gem"},
 "energy":1600
-}).id('kubejs:dust_fluorite');
+}).id('the_boreal:dust_fluorite');
 
 //event.remove({tag: '#forge:dusts/gold'})
 event.custom({
@@ -24,7 +24,7 @@ event.custom({
 "result":{"item":"mekanism:dust_gold","count":1},
 "input":{"item":"minecraft:gold_ingot"},
 "energy":1600
-}).id('kubejs:dust_gold');
+}).id('the_boreal:dust_gold');
 
 
 

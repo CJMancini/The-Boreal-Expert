@@ -1,7 +1,7 @@
-onEvent('worldgen.remove', event => {
+onEvent('worldgen.remove', e => {
 
-event.removeSpawnsByID(spawns => {
-    spawns.entities.values = [
+e.removeSpawnsByID(s => {
+    s.entities.values = [
       'kiwiboi:kiwi'
     ]
   })

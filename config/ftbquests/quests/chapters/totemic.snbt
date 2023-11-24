@@ -1,0 +1,12 @@
+{
+	id: "162EC78BFCE21C69"
+	group: ""
+	order_index: 2
+	filename: "totemic"
+	title: "・Totemic"
+	icon: "totemic:drum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

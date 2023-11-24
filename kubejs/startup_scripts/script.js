@@ -16,9 +16,4 @@ onEvent('block.loot_tables', event => {
 
 
 
-onEvent('item.registry', e => {
-	// Register new items here
-	e.create('the_boreal').displayName('The Boreal')
-	e.create('obsidian_shard').displayName('Obsidian Shard')
-})
 
