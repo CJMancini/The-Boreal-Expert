@@ -60,6 +60,18 @@ event.shaped('1x minecraft:chest', [
     B: 'immersiveengineering:plate_iron',
     A: '#minecraft:logs'
   })
+//STONECUTTER
+event.remove({output: 'minecraft:stonecutter'})
+event.shaped('minecraft:stonecutter', [
+    '   ',
+    '343',
+    '121'
+  ], {
+    1: 'minecraft:oak_log',
+    2: 'minecraft:stone',
+    3: 'minecraft:stone_slab',
+    4: 'thermal:iron_gear'
+  })
 //WOODEN PICKAXE 
 event.shaped('1x minecraft:wooden_pickaxe', [
   '  S',
@@ -282,6 +294,18 @@ Plate('#forge:ingots/lumium' , 'thermal:lumium_plate')
 Plate('#forge:ingots/enderium' , 'thermal:enderium_plate')
 Plate('#forge:ingots/rose_gold' , 'thermal:rose_gold_plate')
 
+//ERSATZ LEATHER
+event.remove({output: 'immersiveengineering:ersatz_leather'})
+event.shaped('immersiveengineering:ersatz_leather', [
+ '14 ',
+ '23 ',
+ '   '
+], {
+ 1: 'minecraft:leather',
+ 2: 'minecraft:flint',
+ 3: 'minecraft:clay_ball',
+ 4: Item.of('minecraft:potion', '{Potion:"minecraft:water"}')
+})
 //HAMMER
 // event.remove({input: 'immersiveengineering:hammer'})
 event.remove({output: 'immersiveengineering:hammer'})
@@ -602,6 +626,179 @@ event.shaped('ironfurnaces:crystal_furnace', [
  A: 'ironfurnaces:emerald_furnace'
 })            
 
+// ╔═╗ ╔╗╔═══╗╔════╗╔╗ ╔╗╔═══╗╔═══╗╔═══╗     ╔═══╗╔═══╗╔═╗╔═╗╔═══╗╔═══╗╔═══╗╔═══╗
+// ║║╚╗║║║╔═╗║║╔╗╔╗║║║ ║║║╔═╗║║╔══╝║╔═╗║     ║╔═╗║║╔═╗║║║╚╝║║║╔═╗║║╔═╗║║╔═╗║║╔═╗║
+// ║╔╗╚╝║║║ ║║╚╝║║╚╝║║ ║║║╚═╝║║╚══╗║╚══╗     ║║ ╚╝║║ ║║║╔╗╔╗║║╚═╝║║║ ║║║╚══╗║╚══╗
+// ║║╚╗║║║╚═╝║  ║║  ║║ ║║║╔╗╔╝║╔══╝╚══╗║     ║║ ╔╗║║ ║║║║║║║║║╔══╝║╚═╝║╚══╗║╚══╗║
+// ║║ ║║║║╔═╗║  ║║  ║╚═╝║║║║╚╗║╚══╗║╚═╝║     ║╚═╝║║╚═╝║║║║║║║║║   ║╔═╗║║╚═╝║║╚═╝║
+// ╚╝ ╚═╝╚╝ ╚╝  ╚╝  ╚═══╝╚╝╚═╝╚═══╝╚═══╝     ╚═══╝╚═══╝╚╝╚╝╚╝╚╝   ╚╝ ╚╝╚═══╝╚═══╝
 
+event.remove({output: 'naturescompass:naturescompass'})
+event.shaped('naturescompass:naturescompass', [
+ '313',
+ '121',
+ '313'
+], {
+ 1: 'twilightforest:hollow_oak_log',
+ 2: 'minecraft:compass',
+ 3: 'totemic:cedar_sapling'
+}) 
+
+// ╔════╗╔═══╗╔════╗╔═══╗╔═╗╔═╗╔══╗╔═══╗
+// ║╔╗╔╗║║╔═╗║║╔╗╔╗║║╔══╝║║╚╝║║╚╣ ╝║╔═╗║
+// ╚╝║║╚╝║║ ║║╚╝║║╚╝║╚══╗║╔╗╔╗║ ║║ ║║ ╚╝
+//   ║║  ║║ ║║  ║║  ║╔══╝║║║║║║ ║║ ║║ ╔╗
+//   ║║  ║╚═╝║  ║║  ║╚══╗║║║║║║╔╣ ╗║╚═╝║
+//   ╚╝  ╚═══╝  ╚╝  ╚═══╝╚╝╚╝╚╝╚══╝╚═══╝
+
+//TOTEMIC DRUM
+event.remove({output: 'totemic:drum'})
+event.shaped('totemic:drum', [
+ '222',
+ ' 1 ',
+ '111'
+], {
+ 1: '#minecraft:logs',
+ 2: 'immersiveengineering:ersatz_leather'
+})
+//WIND CHIME
+event.remove({output: 'totemic:wind_chime'})
+event.shaped('totemic:wind_chime', [
+ '141',
+ '2 2',
+ '3 3'
+], {
+ 1: 'immersiveengineering:stick_iron',
+ 2: 'immersiveengineering:wire_copper',
+ 3: 'minecraft:copper_ingot',
+ 4: 'totemic:cedar_log'
+})
+//TOTEMIC STAFF
+event.remove({output: 'totemic:totemic_staff'})
+event.shaped('totemic:totemic_staff', [
+ '214',
+ ' 31',
+ '5 2'
+], {
+ 1: '#minecraft:leaves',
+ 2: '#forge:plates/gold',
+ 3: '#forge:plates/tin',
+ 4: '#forge:storage_blocks/copper',
+ 5: 'cyclic:copper_sword'
+})
+//JINGLE DRESS
+event.remove({output: 'totemic:jingle_dress'})
+event.shaped('totemic:jingle_dress', [
+ ' 2 ',
+ '131',
+ '212'
+], {
+ 1: 'totemic:iron_bells',
+ 2: 'totemic:cedar_leaves',
+ 3: 'immersiveengineering:ersatz_leather'
+})
+
+// ╔═══╗╔═══╗╔═══╗╔╗   ╔══╗╔═══╗╔═══╗
+// ║╔═╗║║╔═╗║║╔═╗║║║   ╚╣ ╝║╔══╝╚╗╔╗║
+// ║║ ║║║╚═╝║║╚═╝║║║    ║║ ║╚══╗ ║║║║
+// ║╚═╝║║╔══╝║╔══╝║║ ╔╗ ║║ ║╔══╝ ║║║║
+// ║╔═╗║║║   ║║   ║╚═╝║╔╣ ╗║╚══╗╔╝╚╝║
+// ╚╝ ╚╝╚╝   ╚╝   ╚═══╝╚══╝╚═══╝╚═══╝
+// APPLIED
+
+	//INSCRIBER
+	event.remove({output: 'ae2:inscriber'})
+	event.shaped('1x ae2:inscriber', [
+	 'CBC',
+	 'C C',
+	 'CBC'
+   ], {
+	 C: 'the_boreal:hausmannite_ingot',
+	 B: 'minecraft:sticky_piston'
+   })
+	//CHARGER
+	event.remove({output: 'ae2:charger'})
+	event.shaped('1x ae2:charger', [
+	 'CBC',
+	 'C  ',
+	 'CBC'
+   ], {
+	 C: 'the_boreal:hausmannite_ingot',
+	 B: 'thermal:rf_coil'
+   })
+	//Charger
+	event.remove({output: 'ae2:charger'})
+	event.shaped('1x ae2:charger', [
+	 'CBC',
+	 'C  ',
+	 'CBC'
+   ], {
+	 C: 'the_boreal:hausmannite_ingot',
+	 B: 'thermal:rf_coil'
+   })
+	//STORAGE CELL CASING
+	event.remove({output: 'ae2:item_cell_housing'})
+	event.shaped('ae2:item_cell_housing', [
+	 'CBC',
+	 'B B',
+	 'AAA'
+   ], {
+	 C: '#forge:glass',
+	 B: 'minecraft:redstone',
+	 A: 'the_boreal:hausmannite_ingot'
+   })
+	//1K STORAGE
+	event.remove({output: 'ae2:cell_component_1k'})
+	event.shaped('ae2:cell_component_1k', [
+	 'CBC',
+	 'BAB',
+	 'CBC'
+   ], {
+	 A: 'ae2:logic_processor',
+	 C: 'immersiveengineering:plate_steel',
+	 B: 'ae2:certus_quartz_crystal'
+	})
+	//4K STORAGE
+	event.remove({output: 'ae2:cell_component_4k'})
+	event.shaped('ae2:cell_component_4k', [
+	 'CBC',
+	 'BAB',
+	 'CBC'
+   ], {
+	 A: 'ae2:logic_processor',
+	 B: 'ae2:cell_component_1k',
+	 C: 'immersiveengineering:plate_steel'
+   })
+	//16K STORAGE
+	event.remove({output: 'ae2:cell_component_16k'})
+	event.shaped('ae2:cell_component_16k', [
+	 'CBC',
+	 'BAB',
+	 'CBC'
+   ], {
+	 A: 'ae2:engineering_processor',
+	 B: 'ae2:cell_component_4k',
+	 C: 'the_boreal:darksteel_plate'
+   })  
+
+//  ╔═══╗╔══╗╔═╗╔═╗╔═══╗╔╗   ╔╗  ╔╗╔══╗ ╔═══╗╔═══╗╔╗╔═╗╔═══╗╔═══╗╔═══╗╔╗╔═╗╔═══╗
+//  ║╔═╗║╚╣ ╝║║╚╝║║║╔═╗║║║   ║╚╗╔╝║║╔╗║ ║╔═╗║║╔═╗║║║║╔╝║╔═╗║║╔═╗║║╔═╗║║║║╔╝║╔═╗║
+//  ║╚══╗ ║║ ║╔╗╔╗║║╚═╝║║║   ╚╗╚╝╔╝║╚╝╚╗║║ ║║║║ ╚╝║╚╝╝ ║╚═╝║║║ ║║║║ ╚╝║╚╝╝ ║╚══╗
+//  ╚══╗║ ║║ ║║║║║║║╔══╝║║ ╔╗ ╚╗╔╝ ║╔═╗║║╚═╝║║║ ╔╗║╔╗║ ║╔══╝║╚═╝║║║ ╔╗║╔╗║ ╚══╗║
+//  ║╚═╝║╔╣ ╗║║║║║║║║   ║╚═╝║  ║║  ║╚═╝║║╔═╗║║╚═╝║║║║╚╗║║   ║╔═╗║║╚═╝║║║║╚╗║╚═╝║
+//  ╚═══╝╚══╝╚╝╚╝╚╝╚╝   ╚═══╝  ╚╝  ╚═══╝╚╝ ╚╝╚═══╝╚╝╚═╝╚╝   ╚╝ ╚╝╚═══╝╚╝╚═╝╚═══╝
+// simplybackpacks
+
+   event.remove({output: 'simplybackpacks:rarebackpack'})
+   event.shaped('simplybackpacks:rarebackpack', [
+       'BBB',
+       'ACA',
+       'ABA'
+     ], {
+       C: 'ironchest:diamond_chest',
+       B: 'minecraft:diamond',
+       A: 'minecraft:leather'
+     })
+   
 })
 

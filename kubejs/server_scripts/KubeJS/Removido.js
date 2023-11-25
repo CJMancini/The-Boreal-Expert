@@ -1,5 +1,4 @@
 onEvent('recipes', event => {   
-
     //AQUI SERÁ REMOVIDO RECIPES DE ITENS/MODS/TAGS
     const RCM = [ //Mods
     'projecte', //REMOVER
@@ -11,8 +10,16 @@ onEvent('recipes', event => {
     'astral_dimension', //REMOVER
     'draconicevolution', //REMOVER
     'elementalcraft', //REMOVER
+    'ae2things', //REMOVER
+    'ae2additions', //REMOVER
+    'bloodmagic', //REMOVER
     ];
     const RCI = [ //Itens
+    'cyclic:detector_entity',
+    'cyclic:detector_item',
+    'cyclic:spawn_inspector',
+    'cyclic:ender_item_shelf',
+    'cyclic:prospector',
     'ironchest:dirt_chest',
     'ironchest:wood_to_iron_chest_upgrade',
     'ironchest:diamond_to_crystal_chest_upgrade',

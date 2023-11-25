@@ -11,8 +11,8 @@
 	progression_mode: "linear"
 	quests: [
 		{
-			x: -5.5d
-			y: -4.5d
+			x: -9.5d
+			y: -2.5d
 			dependencies: ["23E6345ADF5F4327"]
 			hide: true
 			id: "1A952DA53DCAFEF4"
@@ -23,9 +23,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -6.5d
+			x: -11.0d
+			y: -2.5d
 			dependencies: ["1A952DA53DCAFEF4"]
+			hide: true
 			id: "6262E6CCD5D6B817"
 			tasks: [{
 				id: "51627044F31B4608"
@@ -34,9 +35,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -6.5d
+			x: -9.5d
+			y: -4.5d
 			dependencies: ["1A952DA53DCAFEF4"]
+			hide: true
 			id: "154E81848B0AC02B"
 			tasks: [{
 				id: "347B022E2711C84F"
@@ -50,6 +52,7 @@
 			description: [""]
 			guide_page: "/say oi"
 			dependencies: ["1A952DA53DCAFEF4"]
+			hide: true
 			id: "450E3242FD9A0E6B"
 			tasks: [{
 				id: "573E120BC0FEF9A8"
@@ -64,7 +67,7 @@
 		}
 		{
 			icon: "twilightforest:quest_ram_trophy"
-			x: -10.5d
+			x: -6.0d
 			y: -2.5d
 			dependencies: ["450E3242FD9A0E6B"]
 			id: "0486A0D246947933"
@@ -88,22 +91,99 @@
 			]
 		}
 		{
-			icon: "twilightforest:snow_queen_trophy"
-			x: -11.5d
-			y: -2.5d
+			x: -6.5d
+			y: -1.5d
 			dependencies: ["450E3242FD9A0E6B"]
-			id: "1ED94D880B7B83EA"
+			id: "33208A8D20C3B60C"
+			tasks: [{
+				id: "78F6F77DCB3C58BF"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["33208A8D20C3B60C"]
+			id: "71B2420F0E5065ED"
+			tasks: [{
+				id: "7B85D7DA1610EBF1"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["71B2420F0E5065ED"]
+			id: "06AFEA7C6DE4928B"
+			tasks: [{
+				id: "203FD604F9333A84"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["06AFEA7C6DE4928B"]
+			id: "07AF477A03C0326C"
+			tasks: [{
+				id: "3AE52EFD16EDFE73"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["07AF477A03C0326C"]
+			id: "20C015FD66B7BAAF"
+			tasks: [{
+				id: "2258255E8D3AAC44"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["20C015FD66B7BAAF"]
+			id: "08D1A2A47B46D8D4"
+			tasks: [{
+				id: "632271DA2D304DF1"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			dependencies: ["08D1A2A47B46D8D4"]
+			id: "0EA927A0A354EABD"
+			tasks: [{
+				id: "714E7F7B13B10114"
+				type: "item"
+				item: "twilightforest:alpha_yeti_trophy"
+			}]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: -7.5d
+			y: 5.5d
+			dependencies: ["0EA927A0A354EABD"]
+			id: "07AF8FF627526D93"
 			tasks: [
 				{
-					id: "08304FD187CC73F2"
+					id: "45D906F66FFB5ADB"
 					type: "item"
 					item: "twilightforest:snow_queen_trophy"
 				}
 				{
-					id: "423744E9334109A9"
+					id: "672723682C205A94"
 					type: "item"
 					item: {
-						id: "twilightforest:glass_sword"
+						id: "twilightforest:triple_bow"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -113,22 +193,26 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -7.5d
+			x: -9.5d
+			y: -5.5d
+			dependencies: ["154E81848B0AC02B"]
+			id: "01E6B21C1B2C966F"
+			tasks: [{
+				id: "486892448405EA9A"
+				type: "item"
+				item: "tconstruct:ender_cake"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.5d
 			dependencies: ["6262E6CCD5D6B817"]
-			id: "362398F0A1A523DC"
-			tasks: [
-				{
-					id: "1894AFB59DBB3AC5"
-					type: "item"
-					item: "tconstruct:ichor_slime_crystal_block"
-				}
-				{
-					id: "17560376B67D8CB9"
-					type: "item"
-					item: "tconstruct:ichor_slime_crystal"
-				}
-			]
+			id: "6C57FD5C02478938"
+			tasks: [{
+				id: "41539103CD60FAD5"
+				type: "item"
+				item: "tconstruct:blood_cake"
+			}]
 		}
 	]
 	quest_links: [ ]

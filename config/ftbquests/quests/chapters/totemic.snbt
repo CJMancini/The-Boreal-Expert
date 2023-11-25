@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "totemic"
-	title: "・Totemic"
+	title: "2・Totemic"
 	icon: "totemic:drum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -66,6 +66,8 @@
 				"79B47A1CD8DC6ECE"
 				"68BAC711A0D76E5E"
 			]
+			hide: true
+			dependency_requirement: "one_completed"
 			id: "7065F1D3A298FAA6"
 			tasks: [{
 				id: "270D49821DF5FB6D"
@@ -131,6 +133,8 @@
 		{
 			x: -2.5d
 			y: -3.0d
+			dependencies: ["11AF5CEFE15B342D"]
+			hide: true
 			id: "68BAC711A0D76E5E"
 			tasks: [{
 				id: "4BE3357D7349E64F"
@@ -152,6 +156,8 @@
 		{
 			x: -3.5d
 			y: -3.0d
+			dependencies: ["11AF5CEFE15B342D"]
+			hide: true
 			id: "79B47A1CD8DC6ECE"
 			tasks: [{
 				id: "0F03AFC7F017735E"

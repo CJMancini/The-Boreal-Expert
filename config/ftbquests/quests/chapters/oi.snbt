@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "oi"
-	title: "・The age of steel..."
+	title: "3・The age of steel..."
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -13,6 +13,7 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	progression_mode: "linear"
 	quests: [
 		{
 			title: "Soft Obsidian"

@@ -11,9 +11,14 @@ onEvent('jei.hide.items', event => {
     '@alchemistry', //REMOVER
     '@astral_dimension', //REMOVER
     '@elementalcraft', //REMOVER
-
+    '@ae2things', //REMOVER
+    '@ae2additions', //REMOVER
+    'cyclic:detector_entity',
+    'cyclic:detector_item',
+    'cyclic:spawn_inspector',
+    'cyclic:ender_item_shelf',
+    'cyclic:prospector',
 	  'twilightforest:uncrafting_table',
-
     'telepastries:lost_city_cake',
     'telepastries:custom_cake',
     'telepastries:custom_cake2',
