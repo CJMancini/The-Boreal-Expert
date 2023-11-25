@@ -9,8 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.0d
+			x: 5.25d
 			y: 0.0d
+			dependencies: ["2D2E81BB91182FFA"]
+			size: 1.5d
 			id: "3725B710D54BCC9B"
 			tasks: [{
 				id: "49D7B604C55DF64A"
@@ -27,6 +29,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["35ABE0545FDF6E86"]
 			id: "582E9426466AD539"
 			tasks: [{
 				id: "3B3FDB8B3F2799A9"
@@ -37,6 +40,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
+			dependencies: ["582E9426466AD539"]
 			id: "54E68AD10464F66D"
 			tasks: [{
 				id: "471BFC453E742E08"
@@ -47,6 +51,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
+			dependencies: ["7065F1D3A298FAA6"]
 			id: "52E619A1AD750D72"
 			tasks: [{
 				id: "239B8A4A3980B896"
@@ -57,6 +62,10 @@
 		{
 			x: -3.0d
 			y: -2.0d
+			dependencies: [
+				"79B47A1CD8DC6ECE"
+				"68BAC711A0D76E5E"
+			]
 			id: "7065F1D3A298FAA6"
 			tasks: [{
 				id: "270D49821DF5FB6D"
@@ -67,6 +76,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
+			dependencies: ["35ABE0545FDF6E86"]
 			id: "76A4DA2F58565EE7"
 			tasks: [{
 				id: "0230C898357B4B03"
@@ -75,8 +85,9 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
+			dependencies: ["295D580D5BE8C7EB"]
 			id: "2D2E81BB91182FFA"
 			tasks: [{
 				id: "3E05BAE3D6001416"
@@ -87,6 +98,7 @@
 		{
 			x: 3.0d
 			y: 1.0d
+			dependencies: ["582E9426466AD539"]
 			id: "295D580D5BE8C7EB"
 			tasks: [{
 				id: "032D88E93A545210"
@@ -97,6 +109,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["7210AA790A467EAB"]
 			id: "35ABE0545FDF6E86"
 			tasks: [{
 				id: "5DC2002209C18818"
@@ -107,6 +120,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			dependencies: ["52E619A1AD750D72"]
 			id: "7A563787E3D94818"
 			tasks: [{
 				id: "2306C7BDB94D6795"
@@ -115,7 +129,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -3.0d
 			id: "68BAC711A0D76E5E"
 			tasks: [{
@@ -127,6 +141,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
+			dependencies: ["7A563787E3D94818"]
 			id: "7210AA790A467EAB"
 			tasks: [{
 				id: "7FAC0342BFC92C66"
@@ -153,6 +168,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
+			dependencies: ["7065F1D3A298FAA6"]
 			id: "502B828F9F1319F9"
 			tasks: [{
 				id: "101B1777295BCA15"
@@ -164,6 +180,33 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["7A563787E3D94818"]
+			id: "1B7930177D7B9AE3"
+			tasks: [{
+				id: "1514F119C45F2A64"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["35ABE0545FDF6E86"]
+			id: "14AE707882742CBD"
+			tasks: [{
+				id: "669469AE162592AE"
+				type: "item"
+				item: "totemic:medicine_bag"
+				match_nbt: false
 			}]
 		}
 	]
