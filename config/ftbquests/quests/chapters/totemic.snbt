@@ -7,6 +7,165 @@
 	icon: "totemic:drum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "3725B710D54BCC9B"
+			tasks: [{
+				id: "49D7B604C55DF64A"
+				type: "item"
+				item: {
+					id: "totemic:baykok_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "582E9426466AD539"
+			tasks: [{
+				id: "3B3FDB8B3F2799A9"
+				type: "item"
+				item: "totemic:rattle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "54E68AD10464F66D"
+			tasks: [{
+				id: "471BFC453E742E08"
+				type: "item"
+				item: "totemic:infused_flute"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "52E619A1AD750D72"
+			tasks: [{
+				id: "239B8A4A3980B896"
+				type: "item"
+				item: "totemic:flute"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "7065F1D3A298FAA6"
+			tasks: [{
+				id: "270D49821DF5FB6D"
+				type: "item"
+				item: "totemic:drum"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "76A4DA2F58565EE7"
+			tasks: [{
+				id: "0230C898357B4B03"
+				type: "item"
+				item: "totemic:tipi"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "2D2E81BB91182FFA"
+			tasks: [{
+				id: "3E05BAE3D6001416"
+				type: "item"
+				item: "totemic:eagle_bone_whistle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "295D580D5BE8C7EB"
+			tasks: [{
+				id: "032D88E93A545210"
+				type: "item"
+				item: "totemic:eagle_feather"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "35ABE0545FDF6E86"
+			tasks: [{
+				id: "5DC2002209C18818"
+				type: "item"
+				item: "totemic:buffalo_tooth"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "7A563787E3D94818"
+			tasks: [{
+				id: "2306C7BDB94D6795"
+				type: "item"
+				item: "totemic:cedar_sapling"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "68BAC711A0D76E5E"
+			tasks: [{
+				id: "4BE3357D7349E64F"
+				type: "item"
+				item: "totemic:totemic_staff"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "7210AA790A467EAB"
+			tasks: [{
+				id: "7FAC0342BFC92C66"
+				type: "item"
+				item: "totemic:wind_chime"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "79B47A1CD8DC6ECE"
+			tasks: [{
+				id: "0F03AFC7F017735E"
+				type: "item"
+				item: {
+					id: "totemic:totem_base"
+					Count: 1b
+					tag: {
+						Wood: "minecraft:oak"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			id: "502B828F9F1319F9"
+			tasks: [{
+				id: "101B1777295BCA15"
+				type: "item"
+				item: {
+					id: "totemic:jingle_dress"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 	quest_links: [ ]
 }
